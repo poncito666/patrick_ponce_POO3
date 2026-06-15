@@ -32,12 +32,7 @@ Las clases Vendedor y Cliente usan el método mostrar_rol() de manera diferente,
 
 Criterios de aceptación
 
--El sistema debe permitir registrar un usuario como vendedor.
--El sistema debe permitir registrar un usuario como cliente.
--El vendedor debe poder registrar un videojuego correctamente.
-- El cliente debe poder comprar un videojuego.
--El sistema debe mostrar la información del videojuego registrado o comprado.
--El sistema debe mostrar el rol correspondiente del usuario registrado.
+El sistema debe permitir registrar un usuario como vendedor. El sistema debe permitir registrar un usuario como cliente. El vendedor debe poder registrar un videojuego correctamente. El cliente debe poder comprar un videojuego. El sistema debe mostrar la información del videojuego registrado o comprado. El sistema debe mostrar el rol correspondiente del usuario registrado.
 
  Pruebas de usuario
 
