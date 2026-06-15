@@ -1,51 +1,45 @@
-# patrick_ponce_POO3
-Proyecto asignado en clases 
-# Nombre del proyecto
-
-**Juegos Real No Feik Store**
-
-# Descripción del sistema
+juegos real no feik store
 
 El sistema desarrollado es una tienda virtual de videojuegos que permite el registro de usuarios como vendedores o clientes.
 
-**Problema que resuelve:**
+Problema que resuelve:
 Permite administrar el registro de usuarios y la compra o publicación de videojuegos de manera sencilla.
 
-**Tipo de usuario al que está dirigido:**
+Tipo de usuario al que está dirigido:
 Está dirigido a personas que desean vender o comprar videojuegos dentro de una tienda virtual.
 
-**Funcionalidades principales:**
+Funcionalidades principales:
 
-* Registro de usuarios como vendedor o cliente.
-* Registro de videojuegos por parte de los vendedores.
-* Compra de videojuegos por parte de los clientes.
-* Visualización de la información de los videojuegos.
-* Identificación del rol de cada usuario.
+-Registro de usuarios como vendedor o cliente.
+-Registro de videojuegos por parte de los vendedores.
+-Compra de videojuegos por parte de los clientes.
+-Visualización de la información de los videojuegos.
+-Identificación del rol de cada usuario.
 
-# Conceptos de POO utilizados
+Conceptos de POO utilizados
 
-**Encapsulamiento:**
-Se aplicó en la clase `Usuario`, donde los atributos `nombre`, `correo` y `contraseña` fueron declarados privados mediante el uso de doble guion bajo (`__`). El acceso al nombre se realiza mediante el método `get_nombre()`.
+Encapsulamiento:
+Se aplicó en la clase Usuario, donde los atributos nombre, correo y contraseña fueron declarados privados mediante el uso de doble guion bajo (`__`). El acceso al nombre se realiza mediante el método get_nombre()
 
-**Herencia:**
-Las clases `Vendedor` y `Cliente` heredan de la clase `Usuario`, reutilizando sus atributos y comportamientos.
+Herencia:
+Las clases Vendedor y Cliente heredan de la clase Usuario, volviendo a usar sus atributos y métodos
 
-**Abstracción:**
-La clase `Usuario` es una clase abstracta, ya que contiene el método abstracto `mostrar_rol()`, el cual debe ser implementado por las clases hijas.
+Abstracción:
+La clase Usuario es una clase abstracta, ya que contiene el método abstracto mostrar_rol(), el cual debe ser usado por las clases hijas.
 
-**Polimorfismo:**
-Las clases `Vendedor` y `Cliente` implementan el método `mostrar_rol()` de manera diferente, permitiendo que un mismo método tenga distintos comportamientos según el objeto que lo utilice.
+Polimorfismo:
+Las clases Vendedor y Cliente usan el método mostrar_rol() de manera diferente, permitiendo que un mismo método tenga distintos metodos según la clase
 
-# Criterios de aceptación
+Criterios de aceptación
 
-* El sistema debe permitir registrar un usuario como vendedor.
-* El sistema debe permitir registrar un usuario como cliente.
-* El vendedor debe poder registrar un videojuego correctamente.
-* El cliente debe poder comprar un videojuego.
-* El sistema debe mostrar la información del videojuego registrado o comprado.
-* El sistema debe mostrar el rol correspondiente del usuario registrado.
+-El sistema debe permitir registrar un usuario como vendedor.
+-El sistema debe permitir registrar un usuario como cliente.
+-El vendedor debe poder registrar un videojuego correctamente.
+- El cliente debe poder comprar un videojuego.
+-El sistema debe mostrar la información del videojuego registrado o comprado.
+-El sistema debe mostrar el rol correspondiente del usuario registrado.
 
-# Pruebas de usuario
+ Pruebas de usuario
 
 | Acción realizada                      | Resultado esperado                                                  | Resultado obtenido                                              | Estado |
 | ------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- | ------ |
