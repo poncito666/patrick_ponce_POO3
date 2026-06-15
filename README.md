@@ -10,11 +10,8 @@ Está dirigido a personas que desean vender o comprar videojuegos dentro de una 
 
 Funcionalidades principales:
 
--Registro de usuarios como vendedor o cliente.
--Registro de videojuegos por parte de los vendedores.
--Compra de videojuegos por parte de los clientes.
--Visualización de la información de los videojuegos.
--Identificación del rol de cada usuario.
+
+El registro de usuarios como vendedor o cliente, el registro de juegos por parte de los vendedores. la compra de juegos por parte de los clientes, poder mostrar la información de los juegos e identificar el rol de cada usuario
 
 Conceptos de POO utilizados
 
@@ -32,7 +29,7 @@ Las clases Vendedor y Cliente usan el método mostrar_rol() de manera diferente,
 
 Criterios de aceptación
 
-El sistema debe permitir registrar un usuario como vendedor. El sistema debe permitir registrar un usuario como cliente. El vendedor debe poder registrar un videojuego correctamente. El cliente debe poder comprar un videojuego. El sistema debe mostrar la información del videojuego registrado o comprado. El sistema debe mostrar el rol correspondiente del usuario registrado.
+El sistema debe permitir registrar un usuario como vendedor, registrar un usuario como cliente, el vendedor debe poder registrar un videojuego correctamente, el cliente debe poder comprar un videojuego, el sistema debe mostrar la información del videojuego registrado o comprado y debe mostrar el rol correspondiente del usuario registrado.
 
  Pruebas de usuario
 
